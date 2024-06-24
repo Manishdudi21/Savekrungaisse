@@ -15,12 +15,12 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
+API_ID = "24478892"
+API_HASH = "b7b00353625f83dbf6ca2438353515a0"
+BOT_TOKEN = "7409292522:AAEMTObY2Be_-ejUUo9S4p3yW5KAxKWiTBg"
+SESSION = "BQEyImEAKy4yrQ_k1YOJOOY1rSzVEs_T1wfnQp7SreO7wHbJ5YxQbsqxtlZJ3ZlV5AOFqPIvZQMFU0l0_N0FRu3_jHl1-_NPhJe6tAcrcV1KQQlQc33YfYEY6o8XPkXTvlVuEmhyyMyern1_IUGN01LqxSQwEHDnXM6F6Rzs6GI4YMbuCNcy2-6BlcwohJtuJ2xZG_rbsHd4Qiy0fK5WKq7C9-ODK0XZM5t6U05uMyL13SKiP40ANDv8Q77qi-bRw6tLMfyPG5y0h0jRpreuM7UIHE-sSg3DQrKCtskltytCz3sGGps3CVUE4ntlh_s3wE0hO83wti-cbFCm2Wr0JzcxZlo1OQAAAABZEiprAA"
+FORCESUB = "botsecom"
+AUTH = "6585878012"
 SUDO_USERS = []
 
 if len(AUTH) != 0:
